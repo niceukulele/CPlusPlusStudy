@@ -57,7 +57,7 @@ class child : public parent, public mother, public father
 {
 public:
     virtual void f()  { cout << "Child Func f()" << endl; }
-    virtual void g1() { cout << "Child Func g1()" << endl; }
+    virtual void g() { cout << "Child Func g()" << endl; }
     virtual void h1() { cout << "Child Func h1()" << endl; }
 };
 
